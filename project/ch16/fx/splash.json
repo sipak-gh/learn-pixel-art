@@ -1,0 +1,29 @@
+{
+  "image": "splash.png",
+  "frameWidth": 16,
+  "frameHeight": 8,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$21",
+    "$30"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#3cbcfc",
+    "#fcfcfc"
+  ],
+  "animations": {
+    "splash": {
+      "row": 0,
+      "frames": 3,
+      "durations": [
+        80,
+        90,
+        100
+      ],
+      "loop": true
+    }
+  }
+}

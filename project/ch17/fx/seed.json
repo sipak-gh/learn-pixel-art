@@ -1,0 +1,28 @@
+{
+  "image": "seed.png",
+  "frameWidth": 8,
+  "frameHeight": 8,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$28",
+    "$30"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#f8b800",
+    "#fcfcfc"
+  ],
+  "animations": {
+    "seed": {
+      "row": 0,
+      "frames": 2,
+      "durations": [
+        400,
+        120
+      ],
+      "loop": true
+    }
+  }
+}

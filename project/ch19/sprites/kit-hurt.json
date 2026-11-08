@@ -1,0 +1,28 @@
+{
+  "image": "kit-hurt.png",
+  "frameWidth": 24,
+  "frameHeight": 24,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$16",
+    "$37"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#f83800",
+    "#fce0a8"
+  ],
+  "animations": {
+    "kit-hurt": {
+      "row": 0,
+      "frames": 2,
+      "durations": [
+        80,
+        80
+      ],
+      "loop": true
+    }
+  }
+}

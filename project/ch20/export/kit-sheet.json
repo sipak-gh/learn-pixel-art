@@ -1,0 +1,88 @@
+{
+  "image": "kit-sheet.png",
+  "frameWidth": 24,
+  "frameHeight": 24,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$16",
+    "$37"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#f83800",
+    "#fce0a8"
+  ],
+  "anchor": [
+    12,
+    24
+  ],
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 4,
+      "durations": [
+        500,
+        400,
+        120,
+        400
+      ],
+      "loop": true
+    },
+    "walk": {
+      "row": 1,
+      "frames": 4,
+      "durations": [
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": true
+    },
+    "run": {
+      "row": 2,
+      "frames": 4,
+      "durations": [
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": true
+    },
+    "jump": {
+      "row": 3,
+      "frames": 5,
+      "durations": [
+        80,
+        160,
+        120,
+        160,
+        100
+      ],
+      "loop": true
+    },
+    "attack": {
+      "row": 4,
+      "frames": 4,
+      "durations": [
+        120,
+        60,
+        160,
+        120
+      ],
+      "loop": true
+    },
+    "hurt": {
+      "row": 5,
+      "frames": 2,
+      "durations": [
+        80,
+        80
+      ],
+      "loop": true
+    }
+  }
+}

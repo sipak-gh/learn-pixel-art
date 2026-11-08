@@ -1,0 +1,7 @@
+# scratch renders and Python caches
+.scratch/
+__pycache__/
+*.pyc
+# editor backups
+*~
+*.swp

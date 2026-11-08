@@ -1,0 +1,28 @@
+{
+  "image": "slug.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$14",
+    "$34"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#d800cc",
+    "#f8b8f8"
+  ],
+  "animations": {
+    "slug-crawl": {
+      "row": 0,
+      "frames": 2,
+      "durations": [
+        260,
+        260
+      ],
+      "loop": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "image": "drone.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$10",
+    "$2A"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#bcbcbc",
+    "#58d854"
+  ],
+  "animations": {
+    "drone-hover": {
+      "row": 0,
+      "frames": 4,
+      "durations": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true
+    },
+    "drone-alert": {
+      "row": 1,
+      "frames": 2,
+      "durations": [
+        80,
+        80
+      ],
+      "loop": true
+    }
+  }
+}

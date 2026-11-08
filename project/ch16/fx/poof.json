@@ -1,0 +1,30 @@
+{
+  "image": "poof.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$28",
+    "$30"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#f8b800",
+    "#fcfcfc"
+  ],
+  "animations": {
+    "poof": {
+      "row": 0,
+      "frames": 4,
+      "durations": [
+        70,
+        70,
+        80,
+        90
+      ],
+      "loop": true
+    }
+  }
+}

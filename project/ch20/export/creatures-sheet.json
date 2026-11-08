@@ -1,0 +1,56 @@
+{
+  "image": "creatures-sheet.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "animations": {
+    "hopper-idle": {
+      "row": 0,
+      "frames": 2,
+      "durations": [
+        400,
+        400
+      ],
+      "loop": true
+    },
+    "hopper-hop": {
+      "row": 1,
+      "frames": 4,
+      "durations": [
+        160,
+        140,
+        140,
+        120
+      ],
+      "loop": true
+    },
+    "slug-crawl": {
+      "row": 2,
+      "frames": 2,
+      "durations": [
+        260,
+        260
+      ],
+      "loop": true
+    },
+    "drone-hover": {
+      "row": 3,
+      "frames": 4,
+      "durations": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true
+    },
+    "drone-alert": {
+      "row": 4,
+      "frames": 2,
+      "durations": [
+        80,
+        80
+      ],
+      "loop": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+GIMP Palette
+Name: gameboy (BGB)
+Columns: 4
+#
+  8  24  32	c0
+ 52 104  86	c1
+136 192 112	c2
+224 248 208	c3

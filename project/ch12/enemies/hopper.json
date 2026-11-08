@@ -1,0 +1,39 @@
+{
+  "image": "hopper.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$14",
+    "$34"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#d800cc",
+    "#f8b8f8"
+  ],
+  "animations": {
+    "hopper-idle": {
+      "row": 0,
+      "frames": 2,
+      "durations": [
+        400,
+        400
+      ],
+      "loop": true
+    },
+    "hopper-hop": {
+      "row": 1,
+      "frames": 4,
+      "durations": [
+        160,
+        140,
+        140,
+        120
+      ],
+      "loop": true
+    }
+  }
+}

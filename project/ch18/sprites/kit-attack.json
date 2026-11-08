@@ -1,0 +1,30 @@
+{
+  "image": "kit-attack.png",
+  "frameWidth": 24,
+  "frameHeight": 24,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$16",
+    "$37"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#f83800",
+    "#fce0a8"
+  ],
+  "animations": {
+    "kit-attack": {
+      "row": 0,
+      "frames": 4,
+      "durations": [
+        120,
+        60,
+        160,
+        120
+      ],
+      "loop": true
+    }
+  }
+}

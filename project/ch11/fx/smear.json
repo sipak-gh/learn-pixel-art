@@ -1,0 +1,28 @@
+{
+  "image": "smear.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "palette": [
+    "$0F",
+    "$0F",
+    "$28",
+    "$30"
+  ],
+  "paletteRGB": [
+    "#000000",
+    "#000000",
+    "#f8b800",
+    "#fcfcfc"
+  ],
+  "animations": {
+    "smear": {
+      "row": 0,
+      "frames": 2,
+      "durations": [
+        60,
+        60
+      ],
+      "loop": true
+    }
+  }
+}
